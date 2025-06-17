@@ -1,0 +1,80 @@
+.login-container {
+    max-width: 320px;
+    margin: 60px auto;
+    padding: 30px 25px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+  
+  .login-container h2 {
+    margin-bottom: 24px;
+    color: #222;
+    font-weight: 700;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    text-align: left;
+  }
+  
+  .login-form label {
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #444;
+  }
+  
+  .login-form input {
+    padding: 10px 12px;
+    font-size: 1rem;
+    border: 1.8px solid #ccc;
+    border-radius: 6px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .login-form input:focus {
+    border-color: #2196f3;
+    outline: none;
+    box-shadow: 0 0 5px #2196f3aa;
+  }
+  
+  .btn-primary, .btn-secondary {
+    padding: 12px 0;
+    font-weight: 600;
+    font-size: 1.05rem;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary {
+    background-color: #2196f3;
+    color: white;
+    margin-top: 12px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #1769aa;
+  }
+  
+  .btn-secondary {
+    background-color: #555;
+    color: #eee;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #333;
+  }
+  
+  .error-msg {
+    color: #f44336;
+    margin-top: 14px;
+    font-weight: 600;
+  }
+  
