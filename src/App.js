@@ -39,15 +39,12 @@ function App() {
           }
         />
         <Route
-          path="/"
-          element={
-            loggedInStore ? (
-              <KpiTracker store={loggedInStore} onLogout={handleLogout} />
-            ) : (
-              <Navigate to="/login" />
-            )
-          }
-        />
+  path="/"
+  element={
+    <KpiTracker store={loggedInStore} onLogout={handleLogout} />
+  }
+/>
+
 
         {/* Manager login and protected dashboard */}
         <Route
