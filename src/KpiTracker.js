@@ -77,7 +77,7 @@ function KpiTracker({ store, onLogout }) {
         Logout
       </button>
 
-      <div className="welcome-message">Welcome Store: Cheapside</div>
+      <div className="welcome-message">Welcome Store: Holborn 🙂</div>
 
       <h1>🔥 Team KPI Tracker</h1>
 
