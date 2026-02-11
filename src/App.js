@@ -41,7 +41,11 @@ function App() {
         <Route
   path="/"
   element={
-    <KpiTracker store={loggedInStore} onLogout={handleLogout} />
+    loggedInStore ? (
+      <KpiTracker store={loggedInStore} onLogout={handleLogout} />
+    ) : (
+      <Navigate to="/login" />
+    )
   }
 />
 
